@@ -31,10 +31,6 @@ def pyInterpreter(filepath):
 
     print(ram)
 
-#encoding/Instructions
-    # def halt():
-    #     quit()
-
     def set_register(d,n):
         reg[int(d)] = '000' + n
 
@@ -66,11 +62,6 @@ def pyInterpreter(filepath):
 
     def set_ram(s,a):
         ram[reg[int(a)]] = reg[int(s)]
-
-    # def goto(d,s):
-    #     while (int(reg[int(s)]) != 0):
-    #         instruction = ram[int(reg[int(d)])-1]
-    #         execute_instruction(instruction)
     
     def subtract_value_from_reg(d,n):
         sub =  (int(reg[int(d)]) - int(n)) % 10000
