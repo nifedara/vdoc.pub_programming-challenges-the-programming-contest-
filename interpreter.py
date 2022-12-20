@@ -130,5 +130,5 @@ def pyInterpreter(filepath):
         execute_instruction()
         pc += 1       
 
-pyInterpreter(r"C:\Users\olami\Documents\lofty-code\identiko-nysc\interpreter -py\new_file.txt")
+pyInterpreter(r"C:\Users\host\Documents\interpreter -py\input.txt")
 
